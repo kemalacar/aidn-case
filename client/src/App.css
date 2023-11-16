@@ -1,0 +1,120 @@
+.App {
+    display: inline-flex;
+    height: 1185px;
+    padding: 99px 215px;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.body-class {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.input-field {
+    display: flex;
+    width: 404px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.input {
+    display: flex;
+    height: 41px;
+    padding: 10px 12px 10px 24px;
+    align-items: center;
+    align-self: stretch;
+}
+
+.input-label {
+    display: flex;
+    width: 339px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+
+.input-text-body {
+    color: #000;
+
+    /* Header 3 (16) */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 20.8px */
+}
+
+.button-area{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.button-layout{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.button-text{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    cursor: pointer;
+}
+
+
+.small-14{
+    color: #000;
+
+    /* Small (14) */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.score-area{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+
+
+}
+
+.score-area .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+.score-area .content .text{
+    align-self: stretch;
+    color: #351B44;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 26px */
+}
