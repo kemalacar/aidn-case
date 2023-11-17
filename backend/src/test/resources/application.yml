@@ -1,9 +1,12 @@
 spring:
+  application:
+    name: backend-api
   jpa:
     generate-ddl: true
     show-sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
+
   h2:
     console:
       enabled: true
@@ -13,5 +16,3 @@ spring:
     username: sa
     password:
     driverClassName: org.h2.Driver
-
-
