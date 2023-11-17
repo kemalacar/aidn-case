@@ -1,4 +1,4 @@
-package com.aid.api.configuration;
+package com.aid.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

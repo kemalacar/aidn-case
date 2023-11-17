@@ -1,8 +1,8 @@
-package com.aid.api.configuration;
+package com.aid.configuration;
 
-import com.aid.api.log.LogDto;
-import com.aid.api.log.LogThreadLocal;
-import com.aid.api.util.Constants;
+import com.aid.log.LogDto;
+import com.aid.log.LogThreadLocal;
+import com.aid.util.Constants;
 import lombok.extern.slf4j.Slf4j;
 import net.bytebuddy.utility.RandomString;
 import org.springframework.stereotype.Component;

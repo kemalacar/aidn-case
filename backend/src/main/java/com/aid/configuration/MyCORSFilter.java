@@ -1,4 +1,4 @@
-package com.aid.api.configuration;
+package com.aid.configuration;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
